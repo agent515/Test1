@@ -15,7 +15,8 @@ class Queue():
 	def push(self, val):
 		if len(self.queue) >= self.end-1:
 			print("Error")
-		self.queue.append(val)
+		else: 
+			self.queue.append(val)
 			
 	def pop(self):
 		if len(self.queue) != self.start:
